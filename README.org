@@ -1,4 +1,7 @@
 * Steam Deck Screenshot Aggregator
+  
+DISCLAIMER: This is brand new software that was written very quickly and has been tested very little. I /think/ it works well and am using it myself, but please be careful and take care of your data/device.
+
 ** What?
    A very simple and dumb tool for copying ALL screenshots that you have on your Steam Deck. Reasons it's dumb:
    - It will combine screenshots from the same game from multiple users
@@ -7,7 +10,7 @@
    - It cannot figure out the name of non-steam apps that screenshots may belong to (I could use some help with this one)
 ** Why?
    Steam's screenshot uploading system sucks.
-** How to use this?
+** How?
    It's a basic python script. You can clone the repo and just run the script over ssh. You can also add it as a nonsteam game. If I can figure out how, I'll supply a script for this at some point. You can add "copy" as an argument after the script (e.g. =python /tmp/sdsa.py copy=) to copy the files instead of symlinking them.
    
    When you run it, it will create a folder at =~/Pictures/Screenshots= and will create folders for each game and symlink all the screenshots there. From there you can use whatever means you like to access this data (I use CXFileExplorer on my phone to access the images over SFTP).

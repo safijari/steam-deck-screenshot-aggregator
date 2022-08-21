@@ -16,3 +16,7 @@ DISCLAIMER: This is brand new software that was written very quickly and has bee
    When you run it, it will create a folder at =~/Pictures/Screenshots= and will create folders for each game and symlink all the screenshots there. From there you can use whatever means you like to access this data (I use CXFileExplorer on my phone to access the images over SFTP).
    
    In the future I may also integrate this with Crankshaft or DeckyLoader.
+** Future work
+   - [ ] Make gui app?
+   - [ ] Integrate with Crankshaft or DeckyLoader
+   - [ ] Create some integration with a backup tool
